@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "target": "es5", // 指定ECMAScript目标版本 这里选择es5
+        "noImplicitAny": false, // 隐藏“any”类型在表达式和声明上引发错误，这里选择不隐藏
+        "module": "es2015", // 选择模块化加载规范 这里选择es2015 就是es6加载规范
+        "removeComments": true, // 不输出注释
+        "sourceMap": false, // 生成相应的'.map'文件 这里选择否
+        "allowSyntheticDefaultImports": true, // 允许从没有设置默认导出的模块中默认导入。这并不影响代码的输出，仅为了类型检查。
+        // "outDir": "src/js" //你要生成js的目录,不设置默认同级
+        "noEmitOnError": true, //有错误时不编译
+    }
+}
