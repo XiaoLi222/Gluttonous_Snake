@@ -7,9 +7,9 @@ class Snake{
     //获取蛇的容器
     element:HTMLElement
     constructor() {
-        this.element = document.getElementById('snake')
-        this.head = document.querySelector('#snake > div')
-        this.bodies = document.getElementById('snake').getElementsByTagName('div')
+        this.element = document.getElementById('snake')!
+        this.head = document.querySelector('#snake > div')!
+        this.bodies = document.getElementById('snake')!.getElementsByTagName('div')
     }
     //获取蛇的坐标
     get X() {

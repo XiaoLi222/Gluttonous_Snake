@@ -3,7 +3,7 @@ class Food {
     element: HTMLElement
     constructor() {
         //获取页面food元素
-        this.element = document.getElementById('food')
+        this.element = document.getElementById('food')!
     }
     //获取食物坐标
     get X() {
